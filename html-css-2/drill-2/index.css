@@ -1,0 +1,78 @@
+#top{ 
+    display: flex;
+    border: black solid;
+    margin: 5vh 0 0 5vw;
+    height: 25vh;
+    width: 90vw;
+}
+
+#middle{
+    display: flex;
+    border: black dotted;
+    margin: 5vh 0 0 5vw;
+    height: 25vh;
+    width: 90vw;
+}
+
+#bottom{
+    display: flex;
+
+    margin: 5vh 0 0 5vw;
+    height: 25vh;
+    width: 90vw
+}
+
+#purple-rec{
+    display: inline;
+    margin: 7vh 0 5vh 2vw;
+    width: 3vw;
+    height: 14vh;
+    background-color: rgb(158, 10, 243);
+}
+
+#green-rec{
+    display: inline;
+    margin: 3vh 0 5vh 4vw;
+    width: 25%;
+    height: 18vh;
+    background-color: green;
+}
+
+#blue-cir{
+    display: inline-block;
+    margin: 3vh 0 5vh 4vw;
+    width: 10%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: rgb(119, 220, 238);
+}
+
+#shadow-rec{
+    display: inline;
+    margin: 3vh 6vw 0 6vw;
+    width: 100%;
+    height: 16vh;
+    background-color: rgb(247, 241, 178);
+    box-shadow: 10px 10px 20px 1px rgb(56, 56, 56);
+}
+
+#hello-rec{
+    display: inline;
+    border: black solid 1px;
+    box-shadow: 2px 2px 8px 1px rgb(136, 136, 136);
+    margin-left: 35%;
+    width: 25%;
+    height: 100%;
+}
+
+#hello-text{
+    font-family: "Lucida Console", Lucida, monospace ;
+    color: rgb(35, 35, 128);
+    font-weight: bold;
+    width: 10vw;
+    height: 10vh;
+    font-size: 5vh;
+    flex-wrap: wrap;
+    margin: 8vh 6vw;
+    text-align: center;
+}
