@@ -1,0 +1,46 @@
+header{
+    background-color: rgb(77, 75, 75);
+    position: fixed;
+    top: 0px;
+    height: 20vh;
+    width: 100vw;
+}
+
+.body{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.borders{
+    height: 80vh;
+    width: 10vw;
+    margin: 0px 0px 0px 0px;
+    background-color: green;
+}
+
+#left-section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 172, 172);
+    justify-content: flex-start;
+    margin-right: 80vw;
+}
+
+#right-section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 172, 172);
+}
+
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    height: 14vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+
+
