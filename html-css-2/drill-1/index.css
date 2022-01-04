@@ -20,7 +20,7 @@ header{
 }
 
 #left-section{
-    display: flex;
+    
     flex-direction: column;
     background-color: rgb(172, 172, 172);
     justify-content: flex-start;
@@ -28,7 +28,7 @@ header{
 }
 
 #right-section{
-    display: flex;
+
     flex-direction: column;
     background-color: rgb(172, 172, 172);
 }
