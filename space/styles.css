@@ -1,31 +1,57 @@
+/* Header and Navigation*/
+
+
+
 header{
-    display: fixed;
+    position: fixed;
     top: 0px;
-    position: sticky;
     background-color: rgba(128, 128, 128, 0);
     width: 100vw;
     height: 10vh;
 }
 
+header a{
+    color:white;
+    text-decoration: none;
+}
 
 #main-logo{
     width: 10%;
     margin: 4vh 0 0 40vh;
-
 }
 
 .navigation{
     display: inline-block;
     margin-left: 1vw;
-    font-family: "Verdana", Times, sans-serif; 
-    opacity: 1;}
+    font-family: "Verdana", Times, sans-serif;    
+    color: white; 
+}
 
 #shop{
     margin-left: 32vw;
-
 }
 
 #menu-button{
     width: 1vw;
     height: 1vw;
+}
+
+
+/* Main Body*/
+.body{
+    float: left;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main-sections{
+    height: 98vh;
+}
+
+.main-images{
+    width: 100%;
+    height: 100%;
 }
