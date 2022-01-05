@@ -1,0 +1,31 @@
+header{
+    display: fixed;
+    top: 0px;
+    position: sticky;
+    background-color: rgba(128, 128, 128, 0);
+    width: 100vw;
+    height: 10vh;
+}
+
+
+#main-logo{
+    width: 10%;
+    margin: 4vh 0 0 40vh;
+
+}
+
+.navigation{
+    display: inline-block;
+    margin-left: 1vw;
+    font-family: "Verdana", Times, sans-serif; 
+    opacity: 1;}
+
+#shop{
+    margin-left: 32vw;
+
+}
+
+#menu-button{
+    width: 1vw;
+    height: 1vw;
+}
