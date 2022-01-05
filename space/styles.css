@@ -73,3 +73,18 @@ h3{
     font-family: "Verdana", Times, sans-serif;    
     color: grey;
 }
+
+.error{
+    background-color: rgba(128, 128, 128, 0.493);
+    color: white;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 8vw;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.hide {
+    visibility: hidden;
+}
